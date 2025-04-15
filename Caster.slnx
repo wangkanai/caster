@@ -1,4 +1,7 @@
 <Solution>
+  <Folder Name="/.github/">
+    <File Path=".github\workflows\dotnet.yml" />
+  </Folder>
   <Folder Name="/.solutions/">
     <File Path="LICENSE" />
     <File Path="README.md" />
