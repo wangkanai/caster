@@ -12,4 +12,6 @@
     <File Path=".editorconfig" />
   </Folder>
   <Folder Name="/tests/" />
+  <Project Path="src\Client\Wangkanai.Caster.Client.csproj" Type="Classic C#" />
+  <Project Path="src\Domain\Wangkanai.Caster.Domain.csproj" Type="Classic C#" />
 </Solution>

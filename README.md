@@ -1,3 +1,3 @@
-# Wangkanai Caster
+# Wangkanai Caster Server
 
-Caster ntrip broadcast server
+NTRIP Caster Server
