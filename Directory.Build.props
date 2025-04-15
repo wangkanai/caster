@@ -26,4 +26,8 @@
 		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
 		<AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
 	</PropertyGroup>
+
+	<PropertyGroup>
+		<SharedSourceRoot>$(MSBuildThisFileDirectory)Shared\src\</SharedSourceRoot>
+	</PropertyGroup>
 </Project>
