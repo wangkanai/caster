@@ -15,5 +15,6 @@
 
 	<ItemGroup>
 		<ProjectReference Include="..\Client\Wangkanai.Caster.Client.csproj" />
+		<ProjectReference Include="..\Persistence\Wangkanai.Caster.Presistence.csproj" />
 	</ItemGroup>
 </Project>

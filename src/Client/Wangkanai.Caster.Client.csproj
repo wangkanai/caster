@@ -10,4 +10,8 @@
 		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Authentication" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <ProjectReference Include="..\Domain\Wangkanai.Caster.Domain.csproj" />
+	</ItemGroup>
+
 </Project>

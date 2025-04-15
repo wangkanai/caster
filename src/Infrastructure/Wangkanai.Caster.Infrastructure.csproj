@@ -1,3 +1,5 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
+  <ItemGroup>
+    <ProjectReference Include="..\Application\Wangkanai.Caster.Application.csproj" />
+  </ItemGroup>
 </Project>
