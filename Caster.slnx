@@ -15,4 +15,7 @@
   <Project Path="src\Application\Wangkanai.Caster.Application.csproj" Type="Classic C#" />
   <Project Path="src\Client\Wangkanai.Caster.Client.csproj" Type="Classic C#" />
   <Project Path="src\Domain\Wangkanai.Caster.Domain.csproj" Type="Classic C#" />
+  <Project Path="src\Infrastructure\Wangkanai.Caster.Infrastructure.csproj" Type="Classic C#" />
+  <Project Path="src\Persistence\Wangkanai.Caster.Presistence.csproj" Type="Classic C#" />
+  <Project Path="src\Server\Wangkanai.Caster.Server.csproj" Type="Classic C#" />
 </Solution>

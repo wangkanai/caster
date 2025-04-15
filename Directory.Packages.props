@@ -1,24 +1,24 @@
 <Project>
 	<PropertyGroup>
 		<ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+		<FrameworkVersion>9.0.4</FrameworkVersion>
 	</PropertyGroup>
 	<ItemGroup>
 		<!--sourcelink-->
 		<PackageVersion Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
 		<!--aspnet-->
-		<PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly" Version="9.0.0" />
-		<PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly.Authentication" Version="9.0.0" />
-		<PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="9.0.0" />
-		<PackageVersion Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="9.0.0" />
-		<PackageVersion Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="9.0.0" />
+		<PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly" Version="$(FrameworkVersion)" />
+		<PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly.Authentication" Version="$(FrameworkVersion)" />
+		<PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="$(FrameworkVersion)" />
+		<PackageVersion Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="$(FrameworkVersion)" />
+		<PackageVersion Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="$(FrameworkVersion)" />
 		<!--efcore-->
-		<PackageVersion Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.0" PrivateAssets="all" />
-		<PackageVersion Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.0" PrivateAssets="all" />
-		<PackageVersion Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.0" />
-		<PackageVersion Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.0" />
-		<PackageVersion Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.0" />
+		<PackageVersion Include="Microsoft.EntityFrameworkCore.Design" Version="$(FrameworkVersion)" PrivateAssets="all" />
+		<PackageVersion Include="Microsoft.EntityFrameworkCore.Tools" Version="$(FrameworkVersion)" PrivateAssets="all" />
+		<PackageVersion Include="Microsoft.EntityFrameworkCore.Sqlite" Version="$(FrameworkVersion)" />
+		<PackageVersion Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.4" />
 		<!--tests -->
-		<PackageVersion Include="Microsoft.AspNetCore.TestHost" Version="8.0.0" />
+		<PackageVersion Include="Microsoft.AspNetCore.TestHost" Version="$(FrameworkVersion)" />
 		<PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.13.0" />
 		<PackageVersion Include="Moq" Version="4.20.72" />
 		<PackageVersion Include="xunit" Version="2.9.3" />
