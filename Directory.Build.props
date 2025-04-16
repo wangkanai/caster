@@ -18,6 +18,16 @@
 		<Nullable>enable</Nullable>
 	</PropertyGroup>
 
+	<PropertyGroup Condition="'$(MSBuildProjectName)' == 'Wangkanai.Caster'">
+		<PackageIcon>wangkanai-logo.png</PackageIcon>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+	</PropertyGroup>
+
+	<ItemGroup Condition="'$(MSBuildProjectName)' == 'Wangkanai.Caster'">
+		<None Include="..\..\assets\wangkanai-logo.png" Pack="true" PackagePath="\" />
+		<None Include="..\..\README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+
 	<PropertyGroup>
 		<SuppressNETCoreSdkPreviewMessage>true</SuppressNETCoreSdkPreviewMessage>
 		<PublishRepositoryUrl>true</PublishRepositoryUrl>
