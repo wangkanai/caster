@@ -11,7 +11,9 @@
     <File Path="Directory.Packages.props" />
     <File Path=".editorconfig" />
   </Folder>
-  <Folder Name="/tests/" />
+  <Folder Name="/tests/">
+    <Project Path="tests\Unit\Wangkanai.Caster.UnitTests.csproj" Type="Classic C#" />
+  </Folder>
   <Project Path="src\Application\Wangkanai.Caster.Application.csproj" Type="Classic C#" />
   <Project Path="src\Client\Wangkanai.Caster.Client.csproj" Type="Classic C#" />
   <Project Path="src\Domain\Wangkanai.Caster.Domain.csproj" Type="Classic C#" />

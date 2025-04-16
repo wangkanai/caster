@@ -21,7 +21,7 @@
 		<PackageVersion Include="Microsoft.AspNetCore.TestHost" Version="$(FrameworkVersion)" />
 		<PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.13.0" />
 		<PackageVersion Include="Moq" Version="4.20.72" />
-		<PackageVersion Include="xunit" Version="2.9.3" />
+		<PackageVersion Include="xunit.v3" Version="2.0.1" />
 		<PackageVersion Include="xunit.runner.visualstudio" Version="3.0.2" PrivateAssets="all" />
 		<PackageVersion Include="coverlet.collector" Version="6.0.4" PrivateAssets="all" />
 		<PackageVersion Include="coverlet.msbuild" Version="6.0.4" PrivateAssets="all" />
