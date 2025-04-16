@@ -2,8 +2,10 @@
 
 A lightweight, high-performance NTRIP Caster Server built with .NET Core for distributing GNSS/GPS RTK correction data over the internet.
 
-[![NuGet Badge](https://buildstats.info/nuget/wangkanai.caster)](https://www.nuget.org/packages/wangkanai.caster)
-[![NuGet Pre Release](https://buildstats.info/nuget/wangkanai.caster?includePreReleases=true)](https://www.nuget.org/packages/wangkanai.caster)
+[[![NuGet Badge](https://buildstats.info/nuget/wangkanai.caster)](https://www.nuget.org/packages/wangkanai.caster)](https://img.shields.io/nuget/v/wangkanai.caster
+)
+[[![NuGet Pre Release](https://buildstats.info/nuget/wangkanai.caster?includePreReleases=true)](https://www.nuget.org/packages/wangkanai.caster)](https://img.shields.io/nuget/vpre/wangkanai.caster
+)
 [![caster-ci](https://github.com/wangkanai/caster/actions/workflows/dotnet.yml/badge.svg)](https://github.com/wangkanai/caster/actions/workflows/dotnet.yml)
 [![Open Collective](https://img.shields.io/badge/open%20collective-support%20me-3385FF.svg)](https://opencollective.com/wangkanai)
 [![Patreon](https://img.shields.io/badge/patreon-support%20me-d9643a.svg)](https://www.patreon.com/wangkanai)
