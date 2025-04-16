@@ -1,6 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	
   <ItemGroup>
+    <PackageReference Include="Wangkanai.Domain" />
     <PackageReference Include="Wangkanai.System" />
   </ItemGroup>
 
