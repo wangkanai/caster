@@ -48,13 +48,6 @@ dotnet build
 dotnet run
 ```
 
-Docker container is also available:
-
-```bash
-docker pull wangkanai/caster
-docker run -d -p 2101:2101 wangkanai/caster
-```
-
 ## Configuration
 
 Customize your caster instance through the simple configuration file:
