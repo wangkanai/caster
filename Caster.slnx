@@ -13,6 +13,7 @@
     <File Path=".editorconfig" />
   </Folder>
   <Folder Name="/tests/">
+    <Project Path="tests\Functional\Wangkanai.Caster.FunctionalTests.csproj" Type="Classic C#" />
     <Project Path="tests\Unit\Wangkanai.Caster.UnitTests.csproj" Type="Classic C#" />
   </Folder>
   <Project Path="src\Application\Wangkanai.Caster.Application.csproj" Type="Classic C#" />
