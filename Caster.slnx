@@ -1,6 +1,7 @@
 <Solution>
   <Folder Name="/.github/">
     <File Path=".github\workflows\dotnet.yml" />
+    <File Path=".github\FUNDING.yml" />
   </Folder>
   <Folder Name="/.solutions/">
     <File Path="LICENSE" />
