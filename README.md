@@ -30,7 +30,7 @@ NTRIP (Networked Transport of RTCM via Internet Protocol) is a protocol designed
 
 ## Requirements
 
-- .NET 8.0 or later
+- .NET 9.0 or later
 - Minimal hardware requirements - can run on low-spec devices
 - Internet connectivity for external source integration
 
@@ -46,13 +46,6 @@ dotnet build
 
 # Run the server
 dotnet run
-```
-
-Docker container is also available:
-
-```bash
-docker pull wangkanai/caster
-docker run -d -p 2101:2101 wangkanai/caster
 ```
 
 ## Configuration
@@ -73,7 +66,7 @@ Connect using any NTRIP client-compatible device, including DJI drones, survey e
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
 
 ## Contributing
 
