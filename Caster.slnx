@@ -15,6 +15,7 @@
     <File Path="sign.ps1" />
     <File Path="Version.ps1" />
     <File Path="SonarQube.Analysis.xml" />
+    <File Path="db.ps1" />
   </Folder>
   <Folder Name="/tests/">
     <Project Path="tests\Functional\Wangkanai.Caster.FunctionalTests.csproj" Type="Classic C#" />
@@ -24,7 +25,7 @@
   <Project Path="src\Client\Wangkanai.Caster.Client.csproj" Type="Classic C#" />
   <Project Path="src\Domain\Wangkanai.Caster.Domain.csproj" Type="Classic C#" />
   <Project Path="src\Infrastructure\Wangkanai.Caster.Infrastructure.csproj" Type="Classic C#" />
-  <Project Path="src\Persistence\Wangkanai.Caster.Presistence.csproj" Type="Classic C#" />
+  <Project Path="src\Persistence\Wangkanai.Caster.Persistence.csproj" Type="Classic C#" />
   <Project Path="src\Root\Wangkanai.Caster.csproj" Type="Classic C#" />
   <Project Path="src\Server\Wangkanai.Caster.Server.csproj" Type="Classic C#" />
 </Solution>

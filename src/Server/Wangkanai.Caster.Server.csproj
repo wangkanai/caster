@@ -10,11 +10,14 @@
 		<PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" />
 		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" />
-		<PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" />
 	</ItemGroup>
 
 	<ItemGroup>
 		<ProjectReference Include="..\Client\Wangkanai.Caster.Client.csproj" />
-		<ProjectReference Include="..\Persistence\Wangkanai.Caster.Presistence.csproj" />
+		<ProjectReference Include="..\Persistence\Wangkanai.Caster.Persistence.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Data\" />
 	</ItemGroup>
 </Project>

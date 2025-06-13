@@ -6,6 +6,8 @@
   <ItemGroup>
     <!--sourcelink-->
     <PackageVersion Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
+		<!--extensions-->
+		<PackageVersion Include="Microsoft.Extensions.Identity.Core" Version="$(FrameworkVersion)" />
     <!--aspnet-->
     <PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly" Version="$(FrameworkVersion)" />
     <PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly.Authentication" Version="$(FrameworkVersion)" />
@@ -15,7 +17,7 @@
     <!--efcore-->
     <PackageVersion Include="Microsoft.EntityFrameworkCore.Design" Version="$(FrameworkVersion)" PrivateAssets="all" />
     <PackageVersion Include="Microsoft.EntityFrameworkCore.Tools" Version="$(FrameworkVersion)" PrivateAssets="all" />
-    <PackageVersion Include="Microsoft.EntityFrameworkCore.Design" Version="$(FrameworkVersion)" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.Relational" Version="$(FrameworkVersion)" />
     <PackageVersion Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.4" />
     <!--tests -->
     <PackageVersion Include="Microsoft.AspNetCore.TestHost" Version="$(FrameworkVersion)" />
