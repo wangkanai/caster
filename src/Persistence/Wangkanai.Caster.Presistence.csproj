@@ -2,7 +2,4 @@
   <ItemGroup>
     <ProjectReference Include="..\Infrastructure\Wangkanai.Caster.Infrastructure.csproj" />
   </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" />
-  </ItemGroup>
 </Project>
