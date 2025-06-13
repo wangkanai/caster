@@ -5,7 +5,6 @@ param(
     [string]$name="Open Source Developer, Sarin Na Wangkanai"
 )
 
-
 Write-Host "NuGet Certificate: $certicate"  -ForegroundColor Magenta
 
 Remove-Item -Path .\signed\*.*    -Force -ErrorAction SilentlyContinue
