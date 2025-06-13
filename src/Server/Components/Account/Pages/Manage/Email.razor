@@ -7,8 +7,8 @@
 @using Microsoft.AspNetCore.WebUtilities
 @using Wangkanai.Caster.Data
 
-@inject UserManager<ApplicationUser>  UserManager
-@inject IEmailSender<ApplicationUser> EmailSender
+@inject UserManager<CasterUser>  UserManager
+@inject IEmailSender<CasterUser> EmailSender
 @inject IdentityUserAccessor          UserAccessor
 @inject NavigationManager             NavigationManager
 
@@ -60,7 +60,7 @@
 
 @code {
 	private string?         message;
-	private ApplicationUser user = default!;
+	private CasterUser user = default!;
 	private string?         email;
 	private bool            isEmailConfirmed;
 

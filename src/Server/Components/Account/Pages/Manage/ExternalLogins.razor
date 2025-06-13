@@ -4,10 +4,10 @@
 @using Microsoft.AspNetCore.Identity
 @using Wangkanai.Caster.Data
 
-@inject UserManager<ApplicationUser>   UserManager
-@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<CasterUser>   UserManager
+@inject SignInManager<CasterUser> SignInManager
 @inject IdentityUserAccessor           UserAccessor
-@inject IUserStore<ApplicationUser>    UserStore
+@inject IUserStore<CasterUser>    UserStore
 @inject IdentityRedirectManager        RedirectManager
 
 <PageTitle>Manage your external logins</PageTitle>
@@ -70,7 +70,7 @@
 @code {
 	public const string LinkLoginCallbackAction = "LinkLoginCallback";
 
-	private ApplicationUser              user = default!;
+	private CasterUser              user = default!;
 	private IList<UserLoginInfo>?        currentLogins;
 	private IList<AuthenticationScheme>? otherLogins;
 	private bool                         showRemoveButton;
@@ -96,7 +96,7 @@
 		              .ToList();
 
 		string? passwordHash = null;
-		if (UserStore is IUserPasswordStore<ApplicationUser> userPasswordStore)
+		if (UserStore is IUserPasswordStore<CasterUser> userPasswordStore)
 		{
 			passwordHash = await userPasswordStore.GetPasswordHashAsync(user, HttpContext.RequestAborted);
 		}
