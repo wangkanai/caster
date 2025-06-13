@@ -1,0 +1,18 @@
+<SonarQubeAnalysisProperties xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
+	<!-- Mandatory-->
+	<Property Name="sonar.host.url">https://sonarcloud.io</Property>
+	<!-- Generic  -->
+	<Property Name="sonar.sourceEncoding">UTF-8</Property>
+	<!-- Source   -->
+	<!-- <Property Name="sonar.sources">.</Property> -->
+	<!-- <Property Name="sonar.inclusions"></Property>-->
+	<Property Name="sonar.exclusions">Assets/**, **/benchmark/**, **/node_modules/**, **/lib/**, **/BenchmarkDotNet.Artifacts/**</Property>
+	<!-- Tests    -->
+	<!-- <Property Name="sonar.tests">.</Property>-->
+	<!-- <Property Name="sonar.tests.inclusions">**/tests/**</Property>-->
+	<!-- <Property Name="sonar.tests.exclusions">Assets/</Property>-->
+	<!-- Coverage -->
+	<Property Name="sonar.coverage.exclusions">**/demo/**, **/samples/**, **/hosts/**</Property>
+	<!-- Duplicate-->
+	<Property Name="sonar.cpd.exclusions">**/demo/**, **/samples/**, **/hosts/**</Property>
+</SonarQubeAnalysisProperties>
