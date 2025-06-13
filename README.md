@@ -15,7 +15,7 @@ NTRIP (Networked Transport of RTCM via Internet Protocol) is a protocol designed
 
 ## Key Features
 
-- **RTK Base Support**: Set up and manage your own RTK base stations to provide centimeter-level accuracy for connected clients
+- **RTK Base Support**: Set up and manage your own RTK base stations to provide millimeter-level accuracy for connected clients
 - **Lightweight Design**: Optimized for minimal resource consumption, making it suitable for deployment on small servers or edge devices
 - **DJI Drone Compatibility**: Specifically tested and optimized to work with DJI drone systems for precision flight and mapping
 - **External Source Integration**:
