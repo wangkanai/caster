@@ -3,7 +3,7 @@
 		<Version>0.0.0</Version>
 		<Authors>Sarin Na Wangkanai</Authors>
 		<Company>Wangkanai</Company>
-		<Copyright>©2024-2025 Sarin Na Wangkanai, All rights reserv</Copyright>
+		<Copyright>©2024-2025 Sarin Na Wangkanai, All rights reserved</Copyright>
 
 		<RepositoryType>git</RepositoryType>
 		<RepositoryUrl>git://github.com/wangkanai/caster</RepositoryUrl>
@@ -25,8 +25,8 @@
 	</PropertyGroup>
 
 	<ItemGroup Condition="'$(MSBuildProjectName)' == 'Wangkanai.Caster'">
-		<None Include="..\..\assets\wangkanai-logo.png" Pack="true" PackagePath="\" />
-		<None Include="..\..\README.md" Pack="true" PackagePath="\" />
+		<None Include="$(RepoRoot)\assets\wangkanai-logo.png" Pack="true" PackagePath="\" />
+		<None Include="$(RepoRoot)\README.md" Pack="true" PackagePath="\" />
 	</ItemGroup>
 
 	<PropertyGroup>
@@ -39,6 +39,7 @@
 	</PropertyGroup>
 
 	<PropertyGroup>
+		<RepoRoot Condition=" '$(RepoRoot)' == '' OR !HasTrailingSlash('$(RepoRoot)') ">$(MSBuildThisFileDirectory)</RepoRoot>
 		<SharedSourceRoot>$(MSBuildThisFileDirectory)Shared\src\</SharedSourceRoot>
 	</PropertyGroup>
 </Project>

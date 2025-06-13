@@ -1,6 +1,6 @@
 # Wangkanai Caster Server
 
-A lightweight, high-performance NTRIP Caster Server built with .NET Core for distributing GNSS/GPS RTK correction data over the internet.
+Lightweight, high-performance NTRIP Caster Broadcast Server built with .NET Core for distributing GNSS/GPS RTK correction data over the internet.
 
 [![NuGet Version](https://img.shields.io/nuget/v/wangkanai.caster)](https://www.nuget.org/packages/wangkanai.caster)
 [![NuGet Pre Release](https://img.shields.io/nuget/vpre/wangkanai.caster)](https://www.nuget.org/packages/wangkanai.caster)
@@ -12,7 +12,7 @@ A lightweight, high-performance NTRIP Caster Server built with .NET Core for dis
 [![Patreon](https://img.shields.io/badge/patreon-support%20me-d9643a.svg)](https://www.patreon.com/wangkanai)
 [![GitHub](https://img.shields.io/github/license/wangkanai/caster)](https://github.com/wangkanai/caster/blob/main/LICENSE)
 
-## What is an NTRIP Caster?
+## What is a NTRIP Caster?
 
 NTRIP (Networked Transport of RTCM via Internet Protocol) is a protocol designed to stream GNSS correction data over the internet. An NTRIP Caster serves as the central hub that receives data from base stations and distributes it to rovers (like surveying equipment, precision agriculture tools, and drones) for enhanced positioning accuracy.
 
@@ -34,7 +34,7 @@ NTRIP (Networked Transport of RTCM via Internet Protocol) is a protocol designed
 ## Requirements
 
 - .NET 9.0 or later
-- Minimal hardware requirements - can run on low-spec devices
+- Minimal hardware requirements can run on low-spec devices
 - Internet connectivity for external source integration
 
 ## Installation
@@ -54,7 +54,7 @@ dotnet run
 ## Configuration
 
 Customize your caster instance through the simple configuration file:
-- Define your own mountpoints
+- Define your own mount points
 - Set up external source connections
 - Configure base station priorities
 - Adjust networking parameters
