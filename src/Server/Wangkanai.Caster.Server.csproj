@@ -17,4 +17,8 @@
 		<ProjectReference Include="..\Client\Wangkanai.Caster.Client.csproj" />
 		<ProjectReference Include="..\Persistence\Wangkanai.Caster.Presistence.csproj" />
 	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Data\" />
+	</ItemGroup>
 </Project>

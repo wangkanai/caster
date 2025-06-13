@@ -15,6 +15,7 @@
     <File Path="sign.ps1" />
     <File Path="Version.ps1" />
     <File Path="SonarQube.Analysis.xml" />
+    <File Path="db.ps1" />
   </Folder>
   <Folder Name="/tests/">
     <Project Path="tests\Functional\Wangkanai.Caster.FunctionalTests.csproj" Type="Classic C#" />
