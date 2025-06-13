@@ -10,15 +10,15 @@ public static class UserSeed
 {
 	internal static List<CasterUser> Users =>
 	[
-		Create(1, "sarin@wangkanai.com", "P@ssw0rd", "Sarin", "Na Wangkanai")
+		Create("sarin@wangkanai.com", "P@ssw0rd", "Sarin", "Na Wangkanai")
 	];
 
 	private static PasswordHasher<CasterUser> Hasher => new();
 
-	private static CasterUser Create(int id, string email, string password, string firstname, string lastname)
+	private static CasterUser Create(string email, string password, string firstname, string lastname)
 		=> new()
 		   {
-			   Id                 = id.ToString(),
+			   Id                 = Guid.NewGuid(),
 			   Email              = email,
 			   EmailConfirmed     = true,
 			   UserName           = email,
