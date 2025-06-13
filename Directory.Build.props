@@ -1,8 +1,9 @@
 <Project>
 	<PropertyGroup>
-		<Version>0.0.1</Version>
+		<Version>0.0.2</Version>
 		<Authors>Sarin Na Wangkanai</Authors>
 		<Company>Wangkanai</Company>
+		<Description>Lightweight, high-performance NTRIP Caster Broadcast Server built with .NET Core for distributing GNSS/GPS RTK correction data over the internet.</Description>
 		<Copyright>©2024-2025 Sarin Na Wangkanai, All rights reserved</Copyright>
 
 		<RepositoryType>git</RepositoryType>
