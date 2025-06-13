@@ -8,6 +8,7 @@
 msbuild.binlog
 
 # JetBrains Rider
+.vscode/
 .idea/
 *.sln.iml
 *.slnx.iml
