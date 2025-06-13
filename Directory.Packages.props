@@ -1,7 +1,7 @@
 <Project>
   <PropertyGroup>
     <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
-    <FrameworkVersion>9.0.4</FrameworkVersion>
+    <FrameworkVersion>9.0.6</FrameworkVersion>
   </PropertyGroup>
   <ItemGroup>
     <!--sourcelink-->
