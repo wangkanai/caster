@@ -7,4 +7,8 @@ namespace Wangkanai.Caster.Data;
 public sealed class CasterDbContext(DbContextOptions<CasterDbContext> options)
 	: IdentityDbContext<CasterUser, CasterRole, Guid>(options)
 {
+	protected override void OnModelCreating(ModelBuilder builder)
+	{
+		base.OnModelCreating(builder);
+	}
 }
