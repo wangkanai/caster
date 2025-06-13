@@ -28,6 +28,6 @@
     <PackageVersion Include="FluentAssertions" Version="8.3.0" />
     <!--wangkanai-->
     <PackageVersion Include="Wangkanai.System" Version="5.6.0" />
-    <PackageVersion Include="Wangkanai.Domain" Version="5.0.0-Beta-7" />
+    <PackageVersion Include="Wangkanai.Domain" Version="5.0.0-Beta-6" />
   </ItemGroup>
 </Project>
