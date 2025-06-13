@@ -48,7 +48,7 @@ jobs:
         run:  >
           dotnet sonarscanner begin
           /o:"wangkanai"
-          /k:"wangkanai_github"
+          /k:"wangkanai_caster"
           /s:${{ github.workspace }}/SonarQube.Analysis.xml
           /v:${{ env.VERSION }}
           /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
