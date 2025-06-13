@@ -5,7 +5,9 @@ using Microsoft.AspNetCore.Identity;
 namespace Wangkanai.Caster.Data;
 
 // Add profile data for application users by adding properties to the ApplicationUser class
-public class ApplicationUser : IdentityUser
+public class CasterUser : IdentityUser
 {
+	public string? Firstname { get; set; }
+	public string? Lastname  { get; set; }
+	public string? Fullname  => $"{Firstname} {Lastname}";
 }
-

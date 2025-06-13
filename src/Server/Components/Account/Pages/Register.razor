@@ -7,10 +7,10 @@
 @using Microsoft.AspNetCore.WebUtilities
 @using Wangkanai.Caster.Data
 
-@inject UserManager<ApplicationUser>   UserManager
-@inject IUserStore<ApplicationUser>    UserStore
-@inject SignInManager<ApplicationUser> SignInManager
-@inject IEmailSender<ApplicationUser>  EmailSender
+@inject UserManager<CasterUser>   UserManager
+@inject IUserStore<CasterUser>    UserStore
+@inject SignInManager<CasterUser> SignInManager
+@inject IEmailSender<CasterUser>  EmailSender
 @inject ILogger<Register>              Logger
 @inject NavigationManager              NavigationManager
 @inject IdentityRedirectManager        RedirectManager
@@ -107,27 +107,27 @@
 		RedirectManager.RedirectTo(ReturnUrl);
 	}
 
-	private ApplicationUser CreateUser()
+	private CasterUser CreateUser()
 	{
 		try
 		{
-			return Activator.CreateInstance<ApplicationUser>();
+			return Activator.CreateInstance<CasterUser>();
 		}
 		catch
 		{
-			throw new InvalidOperationException($"Can't create an instance of '{nameof(ApplicationUser)}'. " +
-			                                    $"Ensure that '{nameof(ApplicationUser)}' is not an abstract class and has a parameterless constructor.");
+			throw new InvalidOperationException($"Can't create an instance of '{nameof(CasterUser)}'. " +
+			                                    $"Ensure that '{nameof(CasterUser)}' is not an abstract class and has a parameterless constructor.");
 		}
 	}
 
-	private IUserEmailStore<ApplicationUser> GetEmailStore()
+	private IUserEmailStore<CasterUser> GetEmailStore()
 	{
 		if (!UserManager.SupportsUserEmail)
 		{
 			throw new NotSupportedException("The default UI requires a user store with email support.");
 		}
 
-		return (IUserEmailStore<ApplicationUser>)UserStore;
+		return (IUserEmailStore<CasterUser>)UserStore;
 	}
 
 	private sealed class InputModel

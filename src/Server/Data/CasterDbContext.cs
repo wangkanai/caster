@@ -5,6 +5,6 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Wangkanai.Caster.Data;
 
-public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : IdentityDbContext<ApplicationUser>(options)
+public class CasterDbContext(DbContextOptions<CasterDbContext> options) : IdentityDbContext<CasterUser>(options)
 {
 }

@@ -2,7 +2,7 @@
 @using Microsoft.AspNetCore.Identity
 @using Wangkanai.Caster.Data
 
-@inject SignInManager<ApplicationUser> SignInManager
+@inject SignInManager<CasterUser> SignInManager
 @inject IdentityRedirectManager        RedirectManager
 
 @if (externalLogins.Length == 0)

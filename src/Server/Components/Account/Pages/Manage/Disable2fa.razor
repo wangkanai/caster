@@ -3,7 +3,7 @@
 @using Microsoft.AspNetCore.Identity
 @using Wangkanai.Caster.Data
 
-@inject UserManager<ApplicationUser> UserManager
+@inject UserManager<CasterUser> UserManager
 @inject IdentityUserAccessor         UserAccessor
 @inject IdentityRedirectManager      RedirectManager
 @inject ILogger<Disable2fa>          Logger
@@ -32,7 +32,7 @@
 </div>
 
 @code {
-	private ApplicationUser user = default!;
+	private CasterUser user = default!;
 
 	[CascadingParameter]
 	private HttpContext HttpContext { get; set; } = default!;
