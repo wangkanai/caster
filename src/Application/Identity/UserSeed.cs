@@ -2,7 +2,7 @@
 
 using Microsoft.AspNetCore.Identity;
 
-using Wangkanai.Caster.Data;
+using Wangkanai.Caster.Identity;
 
 namespace Wangkanai.Caster.Application.Identity;
 

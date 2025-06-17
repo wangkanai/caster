@@ -2,7 +2,7 @@
 
 using Microsoft.AspNetCore.Identity;
 
-namespace Wangkanai.Caster.Data;
+namespace Wangkanai.Caster.Identity;
 
 public sealed class CasterRole : IdentityRole<Guid>
 {
