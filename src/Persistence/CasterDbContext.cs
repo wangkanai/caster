@@ -2,7 +2,7 @@
 
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
-namespace Wangkanai.Caster.Identity;
+namespace Wangkanai.Caster.Persistence;
 
 public sealed class CasterDbContext(DbContextOptions<CasterDbContext> options)
 	: IdentityDbContext<CasterUser, CasterRole, Guid>(options)

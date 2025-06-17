@@ -3,7 +3,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 
-using Wangkanai.Caster.Identity;
+using Wangkanai.Caster.Persistence;
 
 namespace Wangkanai.Caster.Components.Account;
 

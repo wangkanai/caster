@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Primitives;
 using Wangkanai.Caster.Components.Account.Pages;
 using Wangkanai.Caster.Components.Account.Pages.Manage;
-using Wangkanai.Caster.Identity;
+using Wangkanai.Caster.Persistence;
 
 namespace Microsoft.AspNetCore.Routing;
 

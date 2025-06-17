@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using Wangkanai.Caster.Client.Pages;
 using Wangkanai.Caster.Components;
 using Wangkanai.Caster.Components.Account;
-using Wangkanai.Caster.Identity;
+using Wangkanai.Caster.Persistence;
 
 var builder = WebApplication.CreateBuilder(args);
 

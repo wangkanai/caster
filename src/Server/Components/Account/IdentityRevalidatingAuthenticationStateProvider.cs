@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Components.Server;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Options;
 
-using Wangkanai.Caster.Identity;
+using Wangkanai.Caster.Persistence;
 
 namespace Wangkanai.Caster.Components.Account;
 
